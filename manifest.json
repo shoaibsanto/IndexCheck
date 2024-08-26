@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "IndexCheck",
+  "version": "1.0",
+  "description": "IndexCheck instantly verifies if a webpage is indexed by Google with a single click, streamlining your SEO workflow.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Check indexing with IndexCheck"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "developer": {
+    "name": "Shoaib Santo",
+    "email": "santosarker00@gmail.com",
+    "website": "https://shoaibsanto.com/"
+  }
+}
